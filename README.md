@@ -29,13 +29,22 @@ table structure:
 
 example https://docs.google.com/spreadsheets/d/1QMH8kIB26srrJSox4Gl29Vm0X6ywrhJlsCRz5Jb5Uec/edit#gid=2059325635
 
+Important: 
+Features shouldn't be an outcome of the goal completion event (for example: agreement amount)
+
 #### Historical funnel data
 table structure:
 — prospect_id
-— is funnel start event (boolean)
+— is proving started (boolean)
 — is funnel end event   (boolean)
 
-example of dataset: 
+Question: Why so many columns if it could be just "prospect_id" with goal completion? 
+Answer: BC it's straightforward to make a mistake here. With explicit fields it should be less often problems like these: 
+- wrong sampling (when we have additional subset of prospects that not a part of funnel, we do this via: "is proving started" (boolean)
+- causation missing. when goal completion were before the "is proving started" event
+
+
+example of dataset: https://docs.google.com/spreadsheets/d/1PY3ee3V6hUlAyhj2kZz8-xiU8V5iyvnLECbtse-zRsQ/edit?usp=drive_link
 
 
 
