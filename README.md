@@ -1,7 +1,12 @@
 # This repo is for standartised input for prospect scoring
 
 ## usecase
-Data from merketing events and other source
+1. Take data from marketing events and other sources and score prospects by chance of won
+2. understend what features are the most important to make portret of Ideal Customer Profile (ICP)
+
+![Screenshot 2024-04-11 at 00 09 01](https://github.com/kobzevvv/prospects_scoring_input_output/assets/24790956/d5f5e1bb-39e4-43c3-a173-0986cc4a281b)
+
+
 
 ### marketing events as features to score
 marketing channel, campaign, refferer or whatever
@@ -29,6 +34,9 @@ table structure:
 — prospect_id
 — is funnel start event (boolean)
 — is funnel end event   (boolean)
+
+example of dataset: 
+
 
 
 
