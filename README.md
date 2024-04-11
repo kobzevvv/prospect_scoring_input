@@ -10,22 +10,25 @@ marketing channel, campaign, refferer or whatever
 page category, some part of page path and exactly the page (for populer page)
 
 ## standard input 
-### sise
+### size
 scoring should handle with 20k — 100k uniq features
 
 ### format
+![Screenshot 2024-04-10 at 23 49 48](https://github.com/kobzevvv/prospect_scoring_input/assets/24790956/a84d4315-95c7-4a06-a02c-944776eb535b)
+
+
 #### prospect with features array
-table strucure:
+table structure:
 — prospect_id
 — features list (comma separated)
 
 example https://docs.google.com/spreadsheets/d/1QMH8kIB26srrJSox4Gl29Vm0X6ywrhJlsCRz5Jb5Uec/edit#gid=2059325635
 
-#### historical funnel data
+#### Historical funnel data
 table structure:
 — prospect_id
-— funnel start event (boolean)
-— funnel end event   (boolean)
+— is funnel start event (boolean)
+— is funnel end event   (boolean)
 
 
 
