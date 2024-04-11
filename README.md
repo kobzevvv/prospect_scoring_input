@@ -14,7 +14,7 @@ page category, some part of page path and exactly the page (for populer page)
 scoring should handle with 20k — 100k uniq features
 
 ### format
-![Screenshot 2024-04-10 at 23 49 48](https://github.com/kobzevvv/prospect_scoring_input/assets/24790956/a84d4315-95c7-4a06-a02c-944776eb535b)
+![Screenshot 2024-04-10 at 23 51 56](https://github.com/kobzevvv/prospect_scoring_input/assets/24790956/1deaa4f3-7b7f-4d06-81ab-b43ee863bd86)
 
 
 #### prospect with features array
